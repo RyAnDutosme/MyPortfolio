@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio </title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="mediaqueries.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/mediaqueries.css">
     </head>
     <body>
         <nav id="desktop-nav">
@@ -29,34 +29,41 @@
             <span></span>
         </div>
         <div class="menu-links">
-                    <li><a href="home" onclick="toggleMenu()">Home</a></li>
-                    <li><a href="about" onclick="toggleMenu()">About</a></li>
-                    <li><a href="portfolio" onclick="toggleMenu()">Portfolio</a></li>
-                    <li><a href="contact" onclick="toggleMenu()">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </div>
         </nav>
         <section id="profile">
-        <div class="section__pic-container">
-            <img src="./pics/Ryan Dutosme.png" alt="Ryan Dutosme profile pic">
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello I am </p>
-            <h1 class="title">Ryan Anthony Dutosme</h1>
-            <p class="section__text__p2">Diploma in Computer Engineering </p>
-            <div class="btn-container ">
-                <button class="btn-color-2" onclick="window.open('./pics/Resume.pdf')">Download Reume
-                </button>
-                <button class="btn-color-1" onclick="location.href='./#contact'">Download Reume
-                </button>
-                <div id="socials">
-                    <img src="./pics/facebook.png" alt="fb-link" class="icon" onclick="location.href='https://facebook.com/ryananthony.dutosme'">
-                    <img src="./pics/instagram.png" alt="insta-link" class="icon" onclick="location.href='https://facebook.com/ryananthony.dutosme'">
-                    <img src="./pics/github.png" alt="github-link" class="icon" onclick="location.href='https://github.com/RyAnDutosme'">
+            <div class="section__pic-container">
+                <img src="assets/img/Ryan Dutosme.png" alt="">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello I am </p>
+                <h1 class="title">Ryan Anthony Dutosme</h1>
+                <p class="section__text__p2">Diploma in Computer Engineering </p>
+                <div class="btn-container ">
+                    <button class="btn-color-2" onclick="window.open('assets/img/Resume.pdf')">Resume
+                    </button>
+                    <div id="socials">
+                        <img src="assets/img/facebook.png" alt="fb-link" class="icon" onclick="location.href='https://facebook.com/ryananthony.dutosme'">
+                        <img src="assets/img/instagram.png" alt="insta-link" class="icon" onclick="location.href='https://facebook.com/ryananthony.dutosme'">
+                        <img src="assets/img/github.png" alt="github-link" class="icon" onclick="location.href='https://github.com/RyAnDutosme'">
+                    </div>
                 </div>
             </div>
-        </div>
-
         </section>
-        <script src="script.js"></script>
+
+        <section id="about">
+            <h1>ABOUT</h1>
+            <div class="about_container">
+                <p>Welcome! I'm Ryan Anthony V. Dutosme, a passionate web development student on <br>a mission to blend technology and creativity. As I navigate through the ever-evolving <br>world of web development, I'm driven by a thirst for knowledge and a desire to create <br>meaningful online experiences. Join me as I explore the endless possibilities of this <br>dynamic field, one line of code at a time.
+                </p>
+                <img class="about_img" src="assets/img/Ryan Dutosme.png" alt="">
+            </div>
+        </section>
+
+        <script src="assets/js/script.js"></script>
         </body>
     </html>
