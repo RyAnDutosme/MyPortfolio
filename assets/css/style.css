@@ -59,7 +59,7 @@ a{
 
 a:hover{
    color: white;
-   text-decoration: blink;
+   text-decoration: underline;
    text-underline-offset: 1rem;
    text-decoration-color: rgb(139, 123, 123);
 }
