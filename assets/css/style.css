@@ -252,8 +252,8 @@ section {
    justify-content: space-evenly;
 }
 
-/* dropdown */
-.dropdown-content {
+/* Dropdown */
+.skill_category .dropdown-content {
    display: none;
    position: absolute;
    background-color: #f9f9f9;
@@ -262,7 +262,8 @@ section {
    z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.skill_category h2:hover + .dropdown-content,
+.skill_category .dropdown-content:hover {
    display: block;
 }
 
@@ -274,7 +275,6 @@ section {
 
 .skill_category {
    text-align: center;
-   cursor: pointer;
 }
 
 .skill_list {
@@ -289,7 +289,7 @@ section {
 }
 
 .skill_list li:hover {
-   background-color: #6b6b6b;
+   background-color: #424242;
 }
 
 .progress-bar {
@@ -305,8 +305,11 @@ section {
    background-color: rgb(0, 202, 209);
 }
 
+
+
 h2:hover {
    color: rgb(0, 202, 209);
+   cursor: pointer;
 }
 
 .skills_description {
