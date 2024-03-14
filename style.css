@@ -18,10 +18,6 @@ html{
    scroll-behavior: smooth;
 }
 
-.logos{
-   height: 10rem;
-}
-
 p{
    color: rgb(255, 255, 255);
 }
@@ -171,7 +167,7 @@ section {
 
 .section__pic-container {
    display: flex;
-   height: 800px;
+   height: 600px;
    width: 600px;
    margin: auto 0;
 }
@@ -181,17 +177,16 @@ section {
    text-align: center;
 }
 
-.section__text__p1{
-   text-align: center;
+.section__text p1{
    font-weight: 600;
-   font-size: 1.5rem;
 }
-.section__text__p2{
+.section__text p2{
    text-align: center;
+}
+.section__text p3{
    font-size: 1.75rem;
    margin-bottom: 1rem;
 }
-
 
 .title{
    font-size: 3rem;
@@ -200,13 +195,9 @@ section {
 
 #socials{
    display: flex;
+   justify-content: right;
    margin-top: 1rem;
-   justify-content: center;
    gap: 1rem;  
-}
-
-#socials1{
-   right: 0%;
 }
 
 /* ICONS*/
@@ -216,125 +207,15 @@ section {
    height: 2rem;
 }
 
-.btn-color-2,
-.btn-color-1 {
-   color: white;
-}
-
-/* about */
-#about {
-   padding-bottom: 43rem;
-   margin-top: 10rem;
-   text-align: center;
-}
-
-.about_container {
-   display: flex;
-   margin-top: 5rem;
-   justify-content: center;
-}
-
-.about_container p {
-   margin-top: 5rem;
-   margin-right: 5rem;
-}
-
-.about_img {
-   height: 25rem;
-   border: 2px solid rgb(0, 202, 209);
-   border-radius: 50%;
-}
-
-
-/* Experience */
-#experience {
-   text-align: center;
-}
-
-.skills_container {
-   display: flex;
-   margin-top: 8rem;
-   justify-content: space-evenly;
-}
-
-/* Dropdown */
-.skill_category .dropdown-content {
-   display: none;
-   position: absolute;
-   background-color: #f9f9f9;
-   min-width: 20rem;
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-   z-index: 1;
-}
-
-.skill_category h2:hover + .dropdown-content,
-.skill_category .dropdown-content:hover {
-   display: block;
-}
-
-/* Additional styling */
-.skills_container {
-   display: flex;
-   justify-content: space-around;
-}
-
-.skill_category {
-   text-align: center;
-}
-
-.skill_list {
-   list-style-type: none;
-   padding: 0;
-   margin: 0;
-}
-
-.skill_list li {
-   padding: 5px;
-   cursor: pointer;
-}
-
-.skill_list li:hover {
-   background-color: #424242;
-}
-
-.progress-bar {
-   width: 100%;
-   background-color: #f2f2f2;
-   border-radius: 5px;
-   margin-top: 5px;
-}
-
-.progress {
-   height: 10px;
-   border-radius: 5px;
-   background-color: rgb(0, 202, 209);
-}
-
-
-
-h2:hover {
-   color: rgb(0, 202, 209);
-   cursor: pointer;
-}
-
-.skills_description {
-   margin-top: 1rem;
-   width: 20rem;
-}
-
-#title {
-   font-size: 50px;
-}
-
-/* BUTTONS */
+/* BUTTON */
 
 .btn-container {
-   display: block;
+   display: flex;
    justify-content: center;
    gap: 1rem;
 }
 
-.btn-color-1{
+.btn {
    font-weight: 600;
    transition: all 300ms ease;
    padding: 1rem;
@@ -343,7 +224,7 @@ h2:hover {
 }
 
 .btn-color-1 {
-   border: rgb(255, 255, 255) 0.1rem solid;
+   border: rgb(53,53,53) 0.1rem solid;
 
 }
 .btn-color-1:hover {
@@ -351,57 +232,10 @@ h2:hover {
 }
 
 .btn-color-1:hover {
-   background: rgb(255, 255, 255);
-   color: rgb(255, 255, 255);
+   background: rgb(53,53,53);
+   color: white;
 }
 
 .btn-color-1{
-   background: rgb(0, 0, 0);
-}
-
-/* Contact */
-#contacts {
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   height: 50vh;
-}
-
-.contact-info-up{
-      display: flex;
-      justify-content: center;
-      border-radius: 5rem;
-      border: rgb(189, 58, 58);
-      border-color: rgb(56, 0, 0);
-      background: (250,250,250);
-      margin: 2rem auto;
-      padding: 0.5rem;
-}
-
-.contact-info-down{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 0.5rem;
-   margin: 1rem;
-}
-
-.contact-info p{
-   font-size: large;
-}
-
-.contact-icon{
-   cursor: default;
-   height: 2rem;
-}
-
-/* Footer */
-
-footer{
-   height: 26vh;
-   margin: 0 1rem;
-}
-
-footer p{
-   text-align: center;
+   background: rgb(214, 27, 27);
 }

@@ -9,15 +9,17 @@
     </head>
     <body>
         <nav id="desktop-nav">
-            <div class="logo"> Menu</div>
-            <div>
+            <div class="logo">
+                <img src="./assets/img/Logo.png" alt="Logo" class="logos">
+            </div>
+           <div>
                 <ul class="nav-links">
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="portfolio">Portfolio</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
 
-                </ul>
+                </ul> 
             </div>
         </nav>
         <nav id="ham-nav">
@@ -31,24 +33,25 @@
         <div class="menu-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <!-- <li><a href="#contact">Contact</a></li> -->
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </div>
         </nav>
         <section id="profile">
             <div class="section__pic-container">
-                <img src="assets/img/Ryan Dutosme.png" alt="">
+                <img src="assets/img/Ryan Dutosme.png" alt="Me">
             </div>
             <div class="section__text">
                 <p class="section__text__p1">Hello I am </p>
                 <h1 class="title">Ryan Anthony Dutosme</h1>
                 <p class="section__text__p2">Diploma in Computer Engineering </p>
-                <div class="btn-container ">
-                    <button class="btn-color-2" onclick="window.open('assets/img/Resume.pdf')">Resume
+                <div class="btn-container">
+                    <button 
+                    class="btn-color-1" onclick="window.open('assets/img/Resume.pdf')">Hire Me
                     </button>
                     <div id="socials">
                         <img src="assets/img/facebook.png" alt="fb-link" class="icon" onclick="location.href='https://facebook.com/ryananthony.dutosme'">
-                        <img src="assets/img/instagram.png" alt="insta-link" class="icon" onclick="location.href='https://facebook.com/ryananthony.dutosme'">
+                        <img src="assets/img/instagram.png" alt="insta-link" class="icon" onclick="location.href='https://instagram.com/ryan_anthony_dutosme/'">
                         <img src="assets/img/github.png" alt="github-link" class="icon" onclick="location.href='https://github.com/RyAnDutosme'">
                     </div>
                 </div>
@@ -64,8 +67,8 @@
             </div>
         </section>
 
-        <section id="skills">
-            <h1 id="title">SKILLS</h1>
+        <section id="experience">
+            <h1 id="title">Experience</h1>
             <div class="skills_container">
                 <div class="skill_category dropdown">
                     <h2>Programming language</h2>
@@ -105,6 +108,46 @@
                 </div>
             </div>
         </section>
+        <section id="contacts">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-up">
+                <div class="contact-info-down">
+                    <img 
+                    src="./assets/img/facebook.png" 
+                    alt="fb icon"
+                    class="contact-icon">
+                    <p><a href="https://facebook.com/ryananthony.dutosme">Ryan Antony Dutosme</a></p>
+                </div>
+                <div class="contact-info-down">
+                    <img 
+                    src="./assets/img/instagram.png" 
+                    alt="insta icon"
+                    class="contact-icon">
+                    <p><a href="https://instagram.com/ryan_anthony_dutosme/">ryan_anthony_dutosme</a></p>
+                </div>
+                <div class="contact-info-down">
+                    <img 
+                    src="./assets/img/github.png" 
+                    alt="github icon"
+                    class="contact-icon">
+                    <p><a href="https://github.com/RyAnDutosme">RyAnDutosme</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav> 
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contacts">Contacts</a></li>  
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024. All Rights Reserved.</p>
+        </footer>
         <script src="assets/js/script.js"></script>
         </body>
     </html>
