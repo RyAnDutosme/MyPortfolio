@@ -334,3 +334,18 @@ footer{
 footer p{
    text-align: center;
 }
+
+
+#das {
+   text-align: center;
+   padding-top: 5rem;
+   padding-bottom: 10rem;
+   background-color: var(--clr-light);
+}
+
+.excelsheet {
+   height: 50rem;
+   width: 90%;
+   margin-top: 2rem;
+   border: 3px solid black;
+}
